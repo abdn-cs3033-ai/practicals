@@ -92,7 +92,7 @@ def read_map(filename):
                             gx = x
                             gy = y
                         else:
-                            raise Exception("Goal already defined", (x,y), (gx,gy))
+                            raise Exception("Goal already defined", (x, y), (gx, gy))
                     else:
                         raise Exception("Unknown tile", cell)
         if gx is None:
@@ -113,4 +113,4 @@ def direction(p1, p2):
         return MOVE_DOWN
     elif p1.y > p2.y:
         return MOVE_UP
-    raise Exception("Unknown direction", x1, y1, x2, y2)
+    raise Exception("Unknown direction", p1.x, p1.y, p2.x, p2.y)
