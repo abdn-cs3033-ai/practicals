@@ -1,0 +1,9 @@
+;;!domain: cup-delivery
+;;!problem: cup-of-tea-for-grandpa-in-livingroom
+
+0.00100: (pick-up cup-of-tea kitchen)
+0.00200: (move kitchen living-room)
+0.00300: (deliver cup-of-tea grandpa living-room)
+
+; Makespan: 0.003
+; Metric: 0.003
