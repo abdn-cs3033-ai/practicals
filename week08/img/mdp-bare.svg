@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="94.5 104 245.77168 192.57877" width="245.77168" height="192.57877">
+  <defs/>
+  <metadata> Produced by OmniGraffle 7.20\n2022-09-22 12:50:12 +0000</metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke="none" stroke-dasharray="none" fill="none" stroke-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_1">
+        <rect x="113" y="126" width="56.69291" height="56.69291" fill="white"/>
+        <rect x="113" y="126" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_4">
+        <rect x="169.69292" y="126" width="56.69291" height="56.69291" fill="white"/>
+        <rect x="169.69292" y="126" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_5">
+        <rect x="113" y="182.69292" width="56.69291" height="56.69291" fill="white"/>
+        <rect x="113" y="182.69292" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_6">
+        <rect x="226.38583" y="126" width="56.69291" height="56.69291" fill="white"/>
+        <rect x="226.38583" y="126" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_7">
+        <rect x="283.07875" y="126" width="56.69291" height="56.69291" fill="white"/>
+        <rect x="283.07875" y="126" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(288.07875 145.84646)" fill="#ff2600">
+          <tspan font-family="Helvetica" font-size="14" fill="#ff2600" x="7.579367" y="14">+100</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <rect x="226.38583" y="182.69292" width="56.69291" height="56.69291" fill="white"/>
+        <rect x="226.38583" y="182.69292" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_9">
+        <rect x="169.69292" y="182.69292" width="56.69291" height="56.69291" fill="black"/>
+        <rect x="169.69292" y="182.69292" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_10">
+        <rect x="112.99994" y="239.38582" width="56.69291" height="56.69291" fill="white"/>
+        <rect x="112.99994" y="239.38582" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_11">
+        <rect x="169.6929" y="239.38582" width="56.69291" height="56.69291" fill="white"/>
+        <rect x="169.6929" y="239.38582" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_12">
+        <rect x="226.38585" y="239.38585" width="56.69291" height="56.69291" fill="white"/>
+        <rect x="226.38585" y="239.38585" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_13">
+        <rect x="283.07877" y="182.69292" width="56.69291" height="56.69291" fill="white"/>
+        <rect x="283.07877" y="182.69292" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(288.07877 202.53937)" fill="#ff2600">
+          <tspan font-family="Helvetica" font-size="14" fill="#ff2600" x="9.336203" y="14">-100</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <rect x="283.07877" y="239.38583" width="56.69291" height="56.69291" fill="white"/>
+        <rect x="283.07877" y="239.38583" width="56.69291" height="56.69291" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_17">
+        <text transform="translate(94.5 143.34645)" fill="black">
+          <tspan font-family="Helvetica" font-size="18" fill="black" x="2.994627" y="18">2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_18">
+        <text transform="translate(97 200.03937)" fill="black">
+          <tspan font-family="Helvetica" font-size="18" fill="black" x="0" y="18">1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <text transform="translate(97.49463 256.73227)" fill="black">
+          <tspan font-family="Helvetica" font-size="18" fill="black" x="0" y="18">0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_20">
+        <text transform="translate(136.34102 104)" fill="black">
+          <tspan font-family="Helvetica" font-size="18" fill="black" x="0" y="18">0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_21">
+        <text transform="translate(193.03398 104)" fill="black">
+          <tspan font-family="Helvetica" font-size="18" fill="black" x="0" y="18">1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_22">
+        <text transform="translate(249.72692 104)" fill="black">
+          <tspan font-family="Helvetica" font-size="18" fill="black" x="0" y="18">2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_23">
+        <text transform="translate(306.41986 104)" fill="black">
+          <tspan font-family="Helvetica" font-size="18" fill="black" x="0" y="18">3</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
