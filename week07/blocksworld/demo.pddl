@@ -1,6 +1,6 @@
 ; Schlumberger Public
 
-(define (problem blocks)(:domain blocksworld)
+(define (problem demo)(:domain blocksworld)
 
 (:objects
     red green blue yellow brown pink - block

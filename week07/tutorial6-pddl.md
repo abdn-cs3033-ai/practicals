@@ -82,8 +82,8 @@ Maria Fox, Derek Long, Schlumberger AI Planning course
 
 Objective: Change the BlocksWorld domain so that there are 2 (or more) grippers instead of the implicit single gripper. Similar to the previous formalisation, we provide a few files to get you started:
 
-1. [Domain](cup_of_tea/domain.pddl)
-2. [Problem](cup_of_tea/problem.pddl)
+1. [Domain](blocksworld/blocksworld.pddl)
+2. [Problem](blocksworld/demo.pddl)
 3. [Solution Plan](cup_of_tea/solution.plan)
 
 #### Things to consider
