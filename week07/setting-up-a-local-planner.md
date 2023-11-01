@@ -32,8 +32,13 @@ It is known for its speed and ability to solve a wide range of planning problems
   ```
   sudo apt install cmake g++ make python3
   ```
+
+  You will also be required to clone the `downward` repository:
+  ```bash
+  git clone https://github.com/aibasel/downward.git
+  ```
   
-  To build the planner, from the top-level directory run:
+  To build the planner:
 ```bash
 cd path/to/downward
 chmod 700 ./build.py
