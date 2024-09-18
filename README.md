@@ -1,2 +1,3 @@
-# practicals
-Practical Sessions for Artificial Intelligence at the University of Aberdeen
+# CS3033 (Artificial Intelligence) Practicals
+
+Practical Sessions for Artificial Intelligence at the University of Aberdeen.
