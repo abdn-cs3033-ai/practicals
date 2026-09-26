@@ -35,3 +35,5 @@ The notebook needs no packages beyond the root `requirements.txt`.
 The section titled Test your code runs each of your algorithms against a reference implementation.
 For each algorithm it runs several searches and prints the hit rate, that is how many of them reached a goal state, and the total runtime.
 Hill climbing can legitimately stop at a local optimum, so expect a hit rate below 100% for plain hill climbing and compare it with the other two.
+The validity check cell that follows asserts that every algorithm returns a well-formed board, that hill climbing stops only at a local optimum, and that random restarts and simulated annealing solve 8-Queens under a fixed seed.
+An `AssertionError` there names the algorithm and the property it broke.
