@@ -37,3 +37,6 @@ pip install -r requirements.txt
 
 The notebook computes the optimal utilities and policy with value iteration and plots them next to what your agents learn.
 The estimates converge towards the value iteration results as the number of trials grows, and the learned policy must match the optimal one in the states the agent visits often.
+A validity check cell follows each agent.
+The passive TD check trains a fresh agent under a fixed seed and asserts that its utilities along the policy's path are within 0.15 of value iteration.
+The Q-learning check does the same and asserts that the greedy action in the well-visited states is the optimal policy's action.

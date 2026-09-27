@@ -34,5 +34,7 @@ pip install -r requirements.txt
 
 ## Checking your work
 
-A correct decision tree learner reproduces the restaurant tree from the lecture, with `Patrons` at the root, and classifies every training example correctly.
-For regression, the notebook plots the line your model induces over the data, so a wrong fit is visible.
+A validity check cell follows each exercise.
+The decision tree check asserts that your learner returns a tree, that the tree tests `Patrons` at the root, and that it classifies every training example correctly.
+The regression check asserts that your fitted line predicts the data far better than a constant at the mean of `Y`.
+The notebook also plots the line over the data, so a wrong fit is visible.
