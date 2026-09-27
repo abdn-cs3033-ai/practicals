@@ -33,4 +33,6 @@ pip install -r requirements.txt
 
 The Testing section at the end of the notebook runs a set of unit tests against your implementation.
 Run that cell after each change.
-A failing test prints the case that failed and the result it expected.
+The tests check that your heuristic gives the right values, that both algorithms report the puzzles as solvable, that every plan is legal and ends in the goal, and that the A* plans are as short as the reference plans, since A* with an admissible heuristic returns a shortest plan.
+A puzzle has several shortest plans, so yours need not match the reference plan move for move.
+A failing test prints the case that failed and what it expected.
