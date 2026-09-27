@@ -15,8 +15,6 @@ import numpy as np
 
 from utils4e import vector_add, orientations, turn_right, turn_left
 
-from IPython.display import HTML, display
-
 
 class MDP:
     """A Markov Decision Process, defined by an initial state, transition model,
@@ -188,7 +186,13 @@ class GridMDP(MDP):
         return self.to_grid({s: chars[a] for (s, a) in policy.items()})
     
     def display_policy(self, policy):
-        """Pretty prints the policy in HTML for a Jupyter Notebook"""
+        """Pretty prints the policy in HTML for a Jupyter Notebook.
+
+        IPython is imported here rather than at module scope so that
+        mdp4e can be imported in a plain Python environment with no
+        Jupyter installed. Only this one rendering helper needs it."""
+        from IPython.display import HTML, display
+
         # SYMBOLS = ['&rarr;', '&uarr;', '&larr;', '&darr;']
         SYMBOLS = {(1, 0): '&rarr;', (0, 1): '&uarr;', (-1, 0): '&larr;', (0, -1): '&darr;', None: '&#x25CE;'}
 

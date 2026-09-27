@@ -1,7 +1,8 @@
 # Week 10: Reinforcement Learning
 
 This practical follows the lecture on reinforcement learning.
-It is a bonus practical: there is no timetabled session for it, and it is not assessed, so work through it in your own time if the lecture interested you.
+It is a bonus practical with no timetabled session.
+Work through it in your own time if the lecture interested you.
 You implement a passive temporal-difference agent and an active Q-learning agent, and compare what they learn against the optimal solution of the underlying MDP.
 
 ## Reading
