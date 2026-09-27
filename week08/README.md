@@ -29,5 +29,6 @@ The notebook needs no packages beyond the root `requirements.txt`.
 ## Checking your work
 
 The notebook runs your algorithms on the 4x3 grid world from the lecture and AIMA Section 17.1, and draws the resulting utilities and policy.
-Compare them with the ones in the book and the lecture slides.
-Value iteration and policy iteration must agree on the optimal policy.
+Compare them with the ones in the book and the lecture slides; value iteration and policy iteration must agree on the optimal policy.
+The validity check cell after the policy iteration example asserts that your value iteration reproduces the utilities in AIMA Figure 17.3, that the extracted policy is the optimal one, that `expected_utility` agrees with the transition model, and that policy iteration reaches the same policy.
+An `AssertionError` names the function and the state where your result differs.
