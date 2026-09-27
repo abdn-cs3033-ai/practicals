@@ -3,12 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
 # Garbage from VScode
 
-Unitled.ipynb
+Untitled*.ipynb
+
+# C extensions
+*.so
 
 # Distribution / packaging
 .Python
