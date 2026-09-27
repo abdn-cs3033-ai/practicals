@@ -84,7 +84,6 @@ Objective: Change the BlocksWorld domain so that there are 2 (or more) grippers 
 
 1. [Domain](blocksworld/blocksworld.pddl)
 2. [Problem](blocksworld/demo.pddl)
-3. [Solution Plan](cup_of_tea/solution.plan)
 
 #### Things to consider
 

@@ -1,0 +1,39 @@
+# Week 03: Search and Heuristics
+
+This practical follows the lectures on uninformed and heuristic search.
+You implement greedy best-first search and A* search and use them to solve instances of the 8-puzzle.
+
+## Reading
+
+AIMA Chapter 3, in particular Sections 3.5 and 3.6 on informed search and heuristics.
+
+## Tasks
+
+- Implement `GreedyBestFirstSearch` by translating the pseudocode from the lecture into Python.
+- Implement `AStarSearch` in the same way.
+- Implement the Manhattan distance heuristic for the 8-puzzle and compare it with the misplaced-tiles heuristic.
+
+## Files
+
+- `tutorial2-search.ipynb`: the practical.
+- `notebook.py`: helper code the notebook imports.
+- `requirements.txt`: the extra package the notebook needs.
+
+## Setup
+
+Open the notebook in Jupyter, or in Colab through the badge at the top of the notebook.
+In Colab, the first code cell clones this repository and installs what the notebook needs.
+Locally, install the extra package first:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Checking your work
+
+The Testing section at the end of the notebook runs a set of unit tests against your implementation.
+Run that cell after each change.
+The tests check that your heuristic gives the right values, that both algorithms report the puzzles as solvable, that every plan is legal and ends in the goal, and that the A* plans are as short as the reference plans, since A* with an admissible heuristic returns a shortest plan.
+A puzzle has several shortest plans, so yours need not match the reference plan move for move.
+If you translated the pseudocode faithfully with the classes the notebook provides, you can also uncomment the stricter checks in the test cell, which compare your plans and tree heights with the reference implementation exactly.
+A failing test prints the case that failed and what it expected.
