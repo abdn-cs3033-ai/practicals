@@ -35,4 +35,5 @@ The Testing section at the end of the notebook runs a set of unit tests against 
 Run that cell after each change.
 The tests check that your heuristic gives the right values, that both algorithms report the puzzles as solvable, that every plan is legal and ends in the goal, and that the A* plans are as short as the reference plans, since A* with an admissible heuristic returns a shortest plan.
 A puzzle has several shortest plans, so yours need not match the reference plan move for move.
+If you translated the pseudocode faithfully with the classes the notebook provides, you can also uncomment the stricter checks in the test cell, which compare your plans and tree heights with the reference implementation exactly.
 A failing test prints the case that failed and what it expected.
